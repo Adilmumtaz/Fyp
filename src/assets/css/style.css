@@ -1,0 +1,31 @@
+.header>ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.header>ul>li{
+    float: left;
+    padding: 0 2rem;
+    margin: 1rem;
+}
+.content{
+    margin-top: 6rem;
+}
+.card-set{
+    width: 100%;
+}
+.card-set .card-header-title{
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+.footermenu>ul{
+    list-style: none;
+}
+.active{
+    background-color: white !important;
+    color: black !important;
+}
+.level0{
+    display: flex;
+    justify-content: space-between;
+}
